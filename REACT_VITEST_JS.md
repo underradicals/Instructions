@@ -108,6 +108,7 @@ npm install @types/node vitest @testing-library/react @testing-library/jest-dom 
 ### Vite Config `vite.config.js`
 
 ```js
+/// <reference types="vitest" />
 /// <reference types="vite/client" />
 
 import { ConfigEnv, CSSOptions, defineConfig, PluginOption, ServerOptions, UserConfig } from "vite";
